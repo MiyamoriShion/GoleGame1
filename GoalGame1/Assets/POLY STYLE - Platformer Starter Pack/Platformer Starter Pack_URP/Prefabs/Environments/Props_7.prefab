@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2021245808634072236}
   - component: {fileID: 5673348229918235069}
   - component: {fileID: -8457244930270919190}
+  - component: {fileID: 6435213857896609572}
+  - component: {fileID: 8521564990637942050}
   m_Layer: 0
   m_Name: Props_7
   m_TagString: Untagged
@@ -110,3 +112,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.003325, y: 4.5196214, z: 1.3744254}
   m_Center: {x: 0.0016624928, y: -1.8097947, z: 0.27011693}
+--- !u!114 &6435213857896609572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5003257899507768075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c81e93792fa9adf4a9c4a1a2cd22c728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8521564990637942050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5003257899507768075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73367bca6ac219f47a3a02c4d0eab36d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  angle: 45

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1865380257393600687}
   - component: {fileID: 2241783440142846165}
   - component: {fileID: -7708169799688525126}
+  - component: {fileID: 2068351574867334308}
   m_Layer: 0
   m_Name: Ground_B1
   m_TagString: Untagged
@@ -110,5 +111,26 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.3999996, y: 3.432974, z: 5.3999996}
-  m_Center: {x: -2.5, y: 1.716487, z: 2.5}
+  m_Size: {x: 5.3999996, y: 2.5508332, z: 5.3999996}
+  m_Center: {x: -2.5, y: 1.2754166, z: 2.5}
+--- !u!65 &2068351574867334308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611986764106753725}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.3999996, y: 3.432974, z: 0.40062714}
+  m_Center: {x: -2.5, y: 1.716487, z: 4.9996862}

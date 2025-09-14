@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7465202293923042913}
   - component: {fileID: 7148370227824314041}
   - component: {fileID: 6621179309479893422}
+  - component: {fileID: 7368008360090494860}
   m_Layer: 0
   m_Name: Props_16
   m_TagString: Untagged
@@ -109,3 +110,15 @@ CapsuleCollider:
   m_Height: 1.5423627
   m_Direction: 1
   m_Center: {x: 0.00056910515, y: 0.010512352, z: 0.0010170937}
+--- !u!114 &7368008360090494860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7704129765306034611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c81e93792fa9adf4a9c4a1a2cd22c728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

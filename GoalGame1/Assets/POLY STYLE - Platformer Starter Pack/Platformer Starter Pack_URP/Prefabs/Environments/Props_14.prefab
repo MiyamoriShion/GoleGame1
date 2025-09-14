@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2608428998700660285}
   - component: {fileID: 8987223841097511971}
   - component: {fileID: 9092281792743344545}
+  - component: {fileID: 4659955862714853404}
   m_Layer: 0
   m_Name: Props_14
   m_TagString: Untagged
@@ -108,3 +109,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.676, y: 1.980809, z: 3.5604377}
   m_Center: {x: 0, y: 0.9877696, z: 0.00032782555}
+--- !u!114 &4659955862714853404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8282453734043031796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b4057595aa1ba4a9382611b206fe56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

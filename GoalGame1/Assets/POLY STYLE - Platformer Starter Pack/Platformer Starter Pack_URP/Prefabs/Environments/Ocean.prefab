@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8521963051273392607}
   - component: {fileID: 3288132524205902079}
   - component: {fileID: 6226472123446222628}
+  - component: {fileID: 3888418778271171134}
   m_Layer: 0
   m_Name: Ocean
   m_TagString: Untagged
@@ -105,3 +106,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 155.9589, y: 1.785138, z: 155.9589}
   m_Center: {x: 0.0000038146973, y: 0.892569, z: 0.0000038146973}
+--- !u!114 &3888418778271171134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7977199180309384278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b4057595aa1ba4a9382611b206fe56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
