@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7148370227824314041}
   - component: {fileID: 6621179309479893422}
   - component: {fileID: 7368008360090494860}
+  - component: {fileID: 3963181516735998065}
   m_Layer: 0
   m_Name: Props_16
   m_TagString: Untagged
@@ -122,3 +123,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c81e93792fa9adf4a9c4a1a2cd22c728, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3963181516735998065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7704129765306034611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e25be8fb47d4fe49a33117f453a74b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  rotationSpeed: 180
+  lifeTime: 5

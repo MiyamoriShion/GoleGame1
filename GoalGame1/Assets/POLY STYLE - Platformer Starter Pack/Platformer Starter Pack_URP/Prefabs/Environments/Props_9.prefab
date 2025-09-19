@@ -242,6 +242,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95fa6265df8dc394dbfaf8476f5b3dc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointA: {fileID: 3969036272369092221}
-  pointB: {fileID: 3969036272369092221}
+  moveDistance: 1
   moveSpeed: 2

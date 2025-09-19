@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
@@ -24,6 +25,7 @@ public class Player1_Move : MonoBehaviour
 
     private void Update()
     {
+      
         // 地面判定
         isGrounded = controller.isGrounded;
         if (isGrounded && velocity.y < 0)
@@ -72,5 +74,11 @@ public class Player1_Move : MonoBehaviour
         // 重力
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);
+    }
+    // バネで飛ばすときに呼ばれる関数
+    public void SetSpringJump(float jumpHeight)
+    {
+        velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        animator.SetBool("isJumping", true);
     }
 }
